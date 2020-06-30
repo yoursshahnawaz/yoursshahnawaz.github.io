@@ -426,6 +426,16 @@ q {
 	text-align: center;
 }
 
+.graphics h2 {
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.about-heading h1 {
+		font-size: 25px !important;
+	}
+}
+
 /************************* Section - Intro *************************/
 
 .intro {
