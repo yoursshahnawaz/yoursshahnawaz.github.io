@@ -1,184 +1,279 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Portfolio | Shahnawaz</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e2741203f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="400">
 
-<body>
-
-	<!--<header>
-		<h2><a href="#" style="color: white;">Shahnawaz</a></h2>
-		<div class="header">
-		
-		<nav class="cl-effect-5" id="cl-effect-5 ">
-			<a href="#about"><span data-hover="About">About</span></a>
-			<a href="#project"><span data-hover="Projects">Projects</span></a>
-			<a href="#"><span data-hover="Contact">Contact</span></a>
-		</nav>
-		</div>
+    <header class="cd-header">
+		<div class="header-wrapper">
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+                </div>				
+            </div>
+            <div class="theme-switch-wrapper">
+                <div class="theme-text">
+                    <em id="emText" >Light Mode</em>
+                </div>
+                
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                  				
+            </div>             
+        </div>
+        				
 	</header>
--->
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Shahnawaz</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse cl-effect-5 " id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
+    <div class="nav">
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
+				<li class="nav__list-item"><a href="#about" class="hover-target">About</a></li>
+				<li class="nav__list-item"><a href="#interests" class="hover-target">Interests</a></li>
+				<li class="nav__list-item"><a href="#projects" class="hover-target">Projects</a></li>
+				<li class="nav__list-item"><a href="#contact" class="hover-target">Contact</a></li>
 			</ul>
-			<li class="nav-item">
-		    	<a class="nav-link" href="#about"><span data-hover="About">About</span></a>
-		    </li>		      
-			<li class="nav-item">
-		        <a class="nav-link" href="#project"><span data-hover="Projects">Projects</span></a>
-		    </li>
-		    <li class="nav-item">
-		        <a class="nav-link" href="#"><span data-hover="Contact">Contact</span></a>
-		    </li>
-	  	</div>
-	</nav>
-
-	<section class="hero">
-		<div class="background-image" style="
-	background: linear-gradient(90deg, rgba(83,74,227,1) 0%, rgba(112,112,251,1) 19%, rgba(35,218,255,1) 89%);"></div>
-		<h1>Hi! I'm Shahnawaz</h1>
-		<h2>A
-		  <span
-		     class="txt-rotate"
-		     data-period="2000"
-		     data-rotate='[ "tech-enthusiast.", "developer.", "graphics designer." ]'></span>
-		</h2>
-	</section>
-
-
-	<section class="about-me" id="about">
-		<h3 class="title">Wanna know more about me? Here you go!</h3>
-		<div class="profile-container">
-		    <img src="assets/img/profile.jpg" class="profile"></img>
-	  	</div>
-		<p>	A keen learner studying at NIT Kurukshetra <br>
-			Prestige Member of <a href="http://gawds.in">GAWDS</a> - Graphics & Web Development Squad (NIT Kurukshetra)<br>
-			<br>
-			I was born and brought up in Allahabad(INDIA). I've always been into computers since my early age and I had always this hunger of learning about computers and stuffs related to it. I'm curious about a lot of things and web designing is one of them. I'm an avid reader and I love reading self-help books. One more thing I'm passionate about is - Video Editing. I've edited several short films and commercials. 
-			<br><br>
-			Seeking to be inspired, to work hard for the things that are worth it, and love to be surrounded by people who are on the same track.
-		</p>
-		<hr>
-	</section>
-	
-
-	<section class="passion">
-		<h3 class="title">Stuffs I love!</h3>
-		<p>I love exploring. I love to learn about new things that's coming out there. <br>
-			But! To be honest in my case it has always been like <i>Jack of all trades. Master of none.</i>
-		However, there are certain things which I believe I'm good at</p>
-		<hr>
-
-		<ul class="grid">
-			<li>
-				<img class = "icon" src="assets/img/photography.webp">
-				<h4>Photography</h4>
-				<p>Capturing the little things that my heart adore. Pointing and shooting love. <br>
-				Software Skills: Adobe Photoshop & Adobe Lightroom</p>
-			</li>
-			<li>
-				<img class = "icon" src="assets/img/web-design.png">
-				<h4>Web Designing</h4>
-				<p>Web designing has been my love ever since I attended the first workshop in my school days. I've made several PHP projects, and recently working with Node JS.</p>
-			</li>
-			<li>
-				
-				<img class = "icon" src="assets/img/video-edit.png">
-				<h4>Video Editing</h4>
-				<p>This is one thing, I've always been passionate about. I've made several short films and few commercials. <br>
-				Software Skills: Adobe After Effects & Adobe Premiere Pro</p>
-			</li>
 		</div>
-	</section>
+    </div>
+    
+    <section class="intro" id="intro">
+        <div class="intro-message">
+            <h4 data-aos="zoom-in" data-aos-duration="1000">Hey! myself</h4>
+            <h1 data-aos="zoom-in" data-aos-easing="ease-in-out">M. Shahnawaz Alam</h1>
+            <h3 data-aos="zoom-in" data-aos-duration="1000">A Freelance Graphic Designer & Web Designer</h3>
+            <hr data-aos="flip-up" data-aos-duration="1000">
+            <h4 data-aos="zoom-in" data-aos-duration="1000">Computer Applications Student</h4>
+            <h4 data-aos="zoom-in" data-aos-duration="1000">🎓 NIT Kurukshetra (India)</h4>
+        </div>
+    </section>
 
+    <section class="about" id="about">
+        <div class="row-header" data-aos="slide-up" data-aos-duration="1000">
+            <div class="column-header">
+                <div class="about-heading">
+                    <h1>About me</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" data-aos="flip-up" data-aos-duration="1000">
+                <div class="profile-img">
+                    <img src="assets/images/profile.jpeg">
+                </div>
+            </div>
+            <div class="column-2" data-aos="slide-up" data-aos-duration="1000">
+                <div class="about-details">
+                    <p>
+                        A keen learner studying at <span>NIT Kurukshetra</span>. A sedulous and tech savvy person. Graphics Designer & Web Designer at 
+                        <strong><a href="https:gawds.in"><span>GAWDS</span></a></strong> - Graphics & Web Development Squad (NIT Kurukshetra).
+                        I was born and brought up in Allahabad (INDIA). I've always been passionate about technology. I'm curious about a lot 
+                        of things and <span>Web Designing</span> is definitely one of them.
+                        I've been very enthusiastic about <span>Programming</span>, way back from my school days.
+                        I'm an <span>avid reader</span> and I love reading self-help books. In my free time I preferably do some graphic design freelancing.<br>
+                        <q data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" >&nbsp; Seeking to be inspired, to work hard for 
+                            the things that are worth it, and love to be surrounded by people who are on the same track.&nbsp; </q>
+                    </p>
+                </div>
 
-	<section class="reviews">
-		<h3 class="title">What I've got in my bucket?</h3>		
-		    <div class="portfolio">
-		      <img class="img-thumbnail border-primary" src="assets/img/html5.png" alt="HTML"/>
-		      <img class="img-thumbnail border-primary" src="assets/img/css3.png" alt="CSS"/>
-		      <img class="img-thumbnail border-primary" src="assets/img/js.png" alt="JavaScript"/>
-		      <img class="img-thumbnail border-primary" src="assets/img/python.png" alt="Python"/>		    
-			</div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="interests" id="interests">
+        <div class="row-header" data-aos="slide-up" data-aos-duration="1000">
+            <div class="column-header">
+                <div class="about-heading" data-aos="fade-in">
+                    <h1><span>02.</span>Skills & Interests</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-4" data-aos="slide-up" data-aos-duration="1000">
+                <div class="interest-details">
+                    <h2>Programming</h2>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>JAVA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column-4" data-aos="slide-up" data-aos-duration="1000">
+                <div class="interest-details">
+                    <h2>Web Designing</h2>
+                    <ul class="interest-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column-4" data-aos="slide-up" data-aos-duration="1000">
+                <div class="interest-details">
+                    <h2>Graphics Designing</h2>
+                    <ul class="interest-list">
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li style="list-style-type: none;">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column-4" data-aos="slide-up" data-aos-duration="1000">
+                <div class="interest-details">
+                    <h2>Misc</h2>
+                    <ul>
+                        <li>Reading</li>
+                        <li>Video Editing</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
 
-		<h3 class="title">What I'm working on?</h3>		    
-	      	<div class="portfolio">
-		      <img class="img-thumbnail border-primary" src="assets/img/nodejs.svg" alt="NodeJS"/>
-		      <img class="img-thumbnail border-primary" src="assets/img/react.png" alt="React"/>
-		      <img class="img-thumbnail border-primary" src="assets/img/flutter.png" alt="flutter"/>
-		  	</div>
-		  
-		
-	</section>
+        </div>
+    </section>
 
+    <section class="projects" id="projects">
+        <div class="row-header" data-aos="slide-up" data-aos-duration="1000">
+            <div class="column-header">
+                <div class="about-heading" data-aos="fade-in">
+                    <h1><span>03.</span>Projects</h1>
+                </div>
+            </div>
+        </div>
 
-	<section class="projects" id="project">
-		<h3 class="title">Projects</h3>
-		<h5><a href="https://yoursshahnawaz.myportfolio.com/">CLICK HERE FOR MY GRAPHICS PORTFOLIO</a></h5>	
-		<p>These are some of my web projects.</p>
-		<hr>
-		<div class="card-container">
-		<div class="card" style="width: 18rem;">
-		  <img class="card-img-top" src="assets/img/notes.jpg" alt="Card image cap">
-		  <div class="card-body text-center">
-		    <h5 class="card-title">Notes App</h5>
-		    <p class="card-text">This was my first Node JS project. This application can be used to create/add notes, to view/read any particular notes, to view all the stored notes and to delete any given notes.</p>
-		    <a href="https://github.com/yoursshahnawaz/notes-app" class="btn btn-primary">Repo Link</a>
-		  </div>
-		</div>
+        <div class="row">
+            <div class="column" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/covid.jpg" alt="covid19">
+                    </div>
+                    <div class="card-content">
+                        <h2>COVID-19 Tracker - India</h2>
+                        <p>Visualisation of Choropleth map to show the details of COVID-19 cases for Indian states and union territories. This was carried out using folium library for python.</p>
+                        <button class="btn repo-btn"  onclick="location.href='https://github.com/yoursshahnawaz/COVID19-India';">Repo Link</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/crime.jpg" alt="Crime Chatbot">
+                    </div>
+                    <div class="card-content">
+                        <h2>Crime Chatbot</h2>
+                        <p>It was developed for Crime reports' registration and its awareness. This was made using Google's DialogFlow. This project was presented at Smart India Hackathon 2020.</p>
+                        <button class="btn repo-btn" onclick="location.href='https://github.com/yoursshahnawaz/SIH-Chatbot';" >Repo Link</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/shop.jpg" alt="REST API">
+                    </div>
+                    <div class="card-content">
+                        <h2>REST Shop API</h2>
+                        <p>This Restful API was made using Express JS. We can add or remove a product, place product orders. Also, it has a user system with proper validations to track users' orders.</p>
+                        <button class="btn repo-btn" onclick="location.href='https://github.com/yoursshahnawaz/Shop-Rest-API';">Repo Link</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 
-		<div class="card" style="width: 18rem;">
-		  <img class="card-img-top" src="assets/img/shop.jpg" alt="Card image cap">
-		  <div class="card-body text-center">
-		    <h5 class="card-title">Shop REST API</h5>
-		    <p class="card-text">This Restful API was made using Express JS. We can add or remove a product, place product orders. Also, it has a user system with proper validations to track users' orders.</p>
-		    <a href="https://github.com/yoursshahnawaz/Shop-Rest-API" class="btn btn-primary">Repo Link</a>
-		  </div>
-		</div>
-		
-		<div class="card" style="width: 18rem;">
-		  <img class="card-img-top" src="assets/img/crime.jpg" alt="Card image cap">
-		  <div class="card-body text-center">
-		    <h5 class="card-title">Crime Registration ChatBot</h5>
-		    <p class="card-text">This application made for Crime reports' registration and its awareness. This was made using Google's DialogFlow. This project was presented at Smart India Hackathon 2020.</p>
-		    <a href="https://github.com/yoursshahnawaz/SIH-Chatbot" class="btn btn-primary btn-center">Repo Link</a>
-		  </div>
-		</div>
-		</div>
-	</section>	
+        <div class="row">
+            <div class="column" data-aos="fade-up" data-aos-duration="1000">
+                <h2>Here' the link to my Graphics Portfolio</h2>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="column">
+                <button class="btn repo-btn" onclick="location.href='https://yoursshahnawaz.myportfolio.com/';">Graphics Portfolio</button>
+            </div>
+        </div>
+    </section>
 
-	<footer>
-		<ul>			
-			<li><a href="http://facebook.com/yoursnawaz"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="http://linkedin.com/in/yoursshahnawaz"><i class="fa fa-linkedin-square"></i></a></li>
-			<li><a href="http://twitter.com/yoursshahnawaz"><i class="fa fa-twitter-square"></i></a></li>
-			<li><a href="http://github.com/yoursshahnawaz"><i class="fa fa-github-square"></i></a></li>
-		</ul>
-		<p>Designed by <a href="http://gawds.in/" target="_blank">Shahnawaz x GAWDS</a>
-	</footer>
+    <section class="contact" id="contact">
+        <div class="row-header" data-aos="slide-up" data-aos-duration="1000">
+            <div class="column-header">
+                <div class="about-heading" data-aos="fade-in">
+                    <h1><span>04.</span>Contact</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column" data-aos="slide-up" data-aos-duration="1000">
+                <h2>I'd love to hear from you!</h2>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" data-aos="slide-up" data-aos-duration="1000">                
+                <button class="btn repo-btn" onclick="location.href='mailto:shahnawazalam340@gmail.com';">Email</button>
+            </div>
+        </div>  
+
+        <div class="row">
+            <div class="column">
+                <div class="social-media" data-aos="zoom-in" data-aos-duration="1000">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://github.com/yoursshahnawaz" target="_blank" class="icon-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yoursshahnawaz/" target="_blank" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/yoursshahnawaz" target="_blank" class="icon-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/yoursshahnawaz" target="_blank" class="icon-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="goto-top">
+                <a class="top" href="#intro"><img src="assets/images/goto-top.png" alt="goto_top"></a>
+            </div>
+        </div>
+        
+    
+    </section>
+
+    <section class="footer">
+        <footer>Designed with ❤️ by Shahnawaz</footer>
+    </section>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="assets/js/script.js"></script>
 
 </body>
-<script src="assets/js/animate.js">
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </html>
