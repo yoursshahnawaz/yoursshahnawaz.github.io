@@ -26,6 +26,11 @@
 	})();
 })(jQuery);
 
+$( '#topheader .nav__list a' ).on( 'click', function () {
+	$( '#topheader .nav__list' ).find( 'li.active-nav' ).removeClass( 'active-nav' );
+	$( this ).parent( 'li' ).addClass( 'active-nav' );
+});
+
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
 function switchTheme(e) {
