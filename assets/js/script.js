@@ -44,3 +44,20 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+
+const button = document.querySelector(".video-play");
+const trailer = document.querySelector(".trailer");
+const closeBtn = document.querySelector(".close-video");
+const video = document.querySelector("video");
+
+button.addEventListener('click', () => {
+	trailer.style.visibility = "visible";
+	trailer.style.opacity = "1";
+});
+closeBtn.addEventListener('click', () => {
+	trailer.style.visibility = "hidden";
+	trailer.style.opacity = "0";
+	video.pause();
+	video.currentTime = 0;
+});
