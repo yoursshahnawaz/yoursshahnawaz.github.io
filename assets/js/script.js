@@ -45,19 +45,36 @@ function switchTheme(e) {
 
 toggleSwitch.addEventListener('change', switchTheme, false);
 
+const buttonMeet = document.querySelector(".meet");
+const attendance = document.querySelector(".google-meet");
+const closeMeet = document.querySelector(".close-meet");
+const videoMeet = attendance.querySelector("video");
 
-const button = document.querySelector(".video-play");
-const trailer = document.querySelector(".trailer");
-const closeBtn = document.querySelector(".close-video");
-const video = document.querySelector("video");
 
-button.addEventListener('click', () => {
-	trailer.style.visibility = "visible";
-	trailer.style.opacity = "1";
+buttonMeet.addEventListener('click', () => {
+	attendance.style.visibility = "visible";
+	attendance.style.opacity = "1";
 });
-closeBtn.addEventListener('click', () => {
-	trailer.style.visibility = "hidden";
-	trailer.style.opacity = "0";
-	video.pause();
-	video.currentTime = 0;
+closeMeet.addEventListener('click', () => {
+	attendance.style.visibility = "hidden";
+	attendance.style.opacity = "0";
+	videoMeet.pause();
+	videoMeet.currentTime = 0;
+});
+
+const buttonCovid = document.querySelector(".covid");
+const covid = document.querySelector(".covid-tracker");
+const closeCovid = document.querySelector(".close-covid");
+const videoCovid = covid.querySelector("video");
+
+buttonCovid.addEventListener('click', () => {
+	covid.style.visibility = "visible";
+	covid.style.opacity = "1";
+});
+
+closeCovid.addEventListener('click', () => {
+	covid.style.visibility = "hidden";
+	covid.style.opacity = "0";
+	videoCovid.pause();
+	videoCovid.currentTime = 0;
 });
