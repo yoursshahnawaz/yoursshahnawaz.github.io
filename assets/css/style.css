@@ -9,13 +9,6 @@
 }
 
 [data-theme="light"] {
-	/* --primary-color: #454545;
-	--secondary-color: #30e3ca;
-	--font-color: #3f3f3f;
-	--bg-color: #eeeeee;
-	--heading-color: #454545;
-	--card-color: #cfcfcf;
-	--black: #e6e6e6; */
 	--primary-color: #454545;
 	--secondary-color: #00d1ff;
 	--font-color: #3f3f3f;
@@ -602,8 +595,6 @@ a:hover {
 
 .column-2 p {
 	text-align: justify;
-	/* padding-left: 15px;
-	padding-right: 15px; */
 }
 
 .column-4 {
