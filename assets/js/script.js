@@ -1,8 +1,6 @@
 (function($) {
 	'use strict';
 
-	//Navigation
-
 	var app = (function() {
 		var body = undefined;
 		var menu = undefined;
