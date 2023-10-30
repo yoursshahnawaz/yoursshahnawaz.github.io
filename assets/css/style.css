@@ -764,6 +764,7 @@ a:hover {
 
 .btn {
 	background-color: transparent;
+	cursor: pointer;
 	border: 2px solid;
 	border-radius: 0.6em;
 	font-size: 1rem;
